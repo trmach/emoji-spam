@@ -1,1 +1,1 @@
-nnoremap <F9> :!cargo build && target/debug/emoji-spam "Hello world" && echo "Program exited with code $?" <enter>
+nnoremap <F9> :!cargo build && target/debug/emoji-spam && echo "Program exited with code $?" <enter>
